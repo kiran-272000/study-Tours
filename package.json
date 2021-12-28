@@ -4,16 +4,21 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "start:prod": "SET NODE_ENV=production & nodemon server.js"
+    "start": "nodemon server.js",
+    "start:prod": "set NODE_ENV=production&& nodemon server.js",
+    "debug": "node server.js"
   },
   "author": "kiran",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "global": "^4.4.0",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.12.12",
     "morgan": "^1.10.0",
+    "ndb": "^1.1.5",
     "slugify": "^1.5.3",
     "validator": "^13.6.0"
   },

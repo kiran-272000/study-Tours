@@ -1,3 +1,4 @@
+/* eslint-disable node/no-unsupported-features/es-syntax */
 // class ///////////////////////////
 class ApiFeatures {
   constructor(query, queryString) {
